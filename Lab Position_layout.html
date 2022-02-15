@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Họ và tên sinh viên: chau Quoc Hung</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            .container{
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .container>header{
+                height: 220px;
+                background-image: url(image/banner.jpg);
+                background-size: 100% 100%;
+                position: relative;
+            }
+            .container>nav{
+                height: 45px;
+                line-height: 45px;
+                background: orangered;
+                margin: 5px 0;
+                text-align: center;
+            }
+            .container>article{
+                min-height: 400px;
+                width: 75%;
+                background: darkkhaki;
+                float: right;
+            }
+            .container>aside{
+                min-height: 400px;
+                width: 24%;
+                background-color: lightgray;
+                float: left;
+            }
+            .container>footer{
+                border-top: 5px double orangered;
+                line-height: 50px;
+                background-color: lightcyan;
+                clear: both;
+                text-align: center;
+            }
+            nav ul{
+                margin: 0;
+                padding: 0;
+            }
+            nav>ul>li{
+                display: inline-block;
+                position: relative;
+            }
+            nav>ul>li>a{
+                display: block;
+                text-decoration: none;
+                color: white;
+                font-variant: small-caps;
+                font-size: larger;
+                padding: 0 10px;
+                line-height: 45px;
+
+            }
+            nav ul ul{
+                position: absolute;
+                display: none;
+            }
+            nav>ul>li:hover>ul{
+                display: block;
+                width: 180px;
+                list-style: none;
+                border-radius: 3px;
+                box-shadow: 0 0 1px gray;
+                background-color: white;
+                text-align: left;
+            }
+            nav>ul>li:hover>ul a{
+                color: orangered;
+                text-decoration: none;
+                font-variant: small-caps;
+                font-size: larger;
+                padding: 5px 0 5px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Trang chủ</a>
+                        <ul>
+                            <li><a href="#">Tuyển sinh 2022</a></li>
+                            <li><a href="#">Các ngành đào tạo</a></li>
+                            <li><a href="#">Các cơ sở đào tạo</a></li>
+                            <li><a href="#">Học phí các ngành</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Giới Thiệu</a></li>
+                    <li><a href="#">Sản phẩm</a>
+                        <ul>
+                            <li><a href="Lab Position_product.html">Điện thoại</a></li>
+                            <li><a href="#">Laptop</a></li>
+                            <li><a href="#">Đồng hồ</a></li>
+                            <li><a href="#">Nước hoa</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Góp ý</a></li>
+                    <li><a href="#">Hỏi đáp</a></li>
+                </ul>
+            </nav>
+            <article>
+
+            </article>
+            <aside>
+
+            </aside>
+            <footer>
+                <p>Thực hiện bởi sinh viên: Chau Quoc Hung</p>
+            </footer>
+        </div>
+    </body>
+</html>

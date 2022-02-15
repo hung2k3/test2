@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ho Va Ten: Chau Quoc Hung</title>
+        <style>
+            .container{
+                width: 1200px; margin: 0 auto;
+            }
+            .container > header{
+                height: 250px;
+                background: url('image/poly-header.jpg');
+                background-size: 100% 100%;
+            }
+            .container>nav{
+                height: 45px; background: orangered;
+            }
+            .container > main > article{
+                width: 24%; min-height: 400px; float: left;
+                background: darkkhaki;
+            }
+            .container > main > aside{
+                width: 24%; min-height: 400px; float: right;
+                background: lightgray;
+            }
+            .container > footer{
+                height: 60px; clear: both;
+                background: lightcyan;
+                border-top: 5px double orangered;
+            }
+            .container nav a {
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                line-height: 45px;
+                margin-right: 10px;
+            }
+            .container aside ul {
+                margin: 0; padding: 0; list-style: none;
+            }
+            .container aside ul li {
+                border-bottom: 1px  solid darkcyan;
+                padding: 10px 0 10px 30px;
+                background: url(image/icon_arrow.gif) no-repeat 5px 13px;
+            }
+            .container aside ul li a {
+                color: darkgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header></header>
+            <nav>
+                <a href="home.html" target="page">Trang chủ</a>
+                <a href="#">Giới thiệu</a>
+                <a href="#">Liện hệ</a>
+                <a href="#">Góp ý</a>
+                <a href="#">Hỏi đáp</a>
+            </nav>
+            <main>
+                <article>
+                    <iframe name="page" width="100%" height="100%"></iframe>
+                </article>
+                <aside>
+                    <ul>
+                        <li><a href="#">Máy tính sách tay</a></li>
+                        <li><a href="#">Điện thoại di động</a></li>
+                        <li><a href="#">Máy quay phim</a></li>
+                        <li><a href="#">Máy chụp ảnh</a></li>
+                    </ul>
+                </aside>
+            </main>
+            <flooter>
+                <p>Phát triển bởi Họ tên sinh viên</p>
+            </flooter>
+        </div>
+    </body>
+</html>

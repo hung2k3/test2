@@ -1,0 +1,70 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container>header{
+    height: 250px;
+    background: url(image/fpoly.jpg);
+    background-size: 100% 100%;
+}
+.container>nav{
+    line-height: 45px;
+    background: orangered;
+    text-align: center;
+}
+.container>main>article{
+    width: 75%;
+    min-height: 400px;
+    float:left;
+    background: darkkhaki;
+}
+.container>main>aside{
+    width: 24%;
+    min-height: 400px;
+    float: right;
+    background: lightgray;
+}
+.container>footer{
+    height: 60px;
+    clear: both;
+    background: lightcyan;
+    border-top: 5px double orangered;
+}
+.container nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 45px;
+    margin-right: 10px;
+    font-variant: small-caps;
+
+}
+
+.container nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+
+}
+.container aside ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container aside ul li{
+    border-bottom: 1px solid darkcyan;
+    padding: 10px 0 10px 30px;
+    background: url(image/b1.gif) no-repeat 5px 13px;
+}
+.container aside ul li a{
+    color: darkgreen;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+.container aside ul li a:hover{
+    color: red;
+    text-decoration: underline;
+    
+}
+.container footer{
+    text-align: center;
+}
